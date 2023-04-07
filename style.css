@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 p {
@@ -84,14 +85,14 @@ nav ul li {
 #title {
     font-size: 1.8rem;
     font-family: 'Red Hat Display', sans-serif;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
 }
 
 
 /* intro Section*/
 
 .intro {
-    background-color: #2b2569;
+    background-color: white;
 }
 
 .intro div {
@@ -113,27 +114,27 @@ nav ul li {
     margin: 5%;
 }
 
-/* department section */
-.department{
-    background-color: #2b2569;
-}
-
-.department div {
-    margin: 5%;
-}
-
 .timeline_container{
     width: 85vw;
     justify-content: center;
 }
 
 
-/* Context section */
+/* Contact section */
 .contact{
-    background-color: #2b2569;
+    background-color: white;
 }
 
 .contact div{
+    margin: 5%;
+}
+
+/* resource section */
+.resource{
+    background-color: white;
+}
+
+.resource div {
     margin: 5%;
 }
 

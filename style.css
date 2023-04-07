@@ -54,6 +54,10 @@ i {
     margin: 0 10px 10xp 10px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Navbar*/
 nav {
     height: 64px;
@@ -105,7 +109,7 @@ nav ul li {
 
 /* timeline section*/
 
-.timeline div {
+.timeline span {
     margin: 5%;
 }
 
@@ -118,10 +122,15 @@ nav ul li {
     margin: 5%;
 }
 
+.timeline_container{
+    width: 85vw;
+    justify-content: center;
+}
+
 
 /* Context section */
 .contact{
-    justify-content: center;
+    background-color: #2b2569;
 }
 
 .contact div{

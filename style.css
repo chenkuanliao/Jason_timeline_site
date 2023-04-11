@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 p {
@@ -84,14 +85,14 @@ nav ul li {
 #title {
     font-size: 1.8rem;
     font-family: 'Red Hat Display', sans-serif;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
 }
 
 
 /* intro Section*/
 
 .intro {
-    background-color: #2b2569;
+    /* background-color: rgb(218, 156, 85); */
 }
 
 .intro div {
@@ -101,9 +102,16 @@ nav ul li {
 .background-image{
     border: 0px;
     width: 100%;
-    height: 115vh;
+    height: 108vh;
     object-fit: cover;
     position: absolute;
+    opacity: 50%;
+}
+
+.intro p {
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 0px;
 }
 
 
@@ -113,36 +121,55 @@ nav ul li {
     margin: 5%;
 }
 
-/* department section */
-.department{
-    background-color: #2b2569;
-}
-
-.department div {
-    margin: 5%;
-}
-
 .timeline_container{
     width: 85vw;
     justify-content: center;
 }
 
+.timeline h1{
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
-/* Context section */
+.timeline h2{
+    font-size: 25px;
+}
+
+.timeline p{
+    font-size: 15px;
+    margin: 30px;
+}
+
+
+/* Contact section */
 .contact{
-    background-color: #2b2569;
+    /* background-color: rgb(218, 156, 85); */
+    display: flex;
+    flex-direction: column;
 }
 
+.contact-container{
+    margin-top: 20%;
+}
 .contact div{
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-/* Footer section */
-footer{
-    height: 125px;
+.contact h1{
+    font-size: 40px;
+}
+
+.contact h2{
+    font-size: 20px;
+}
+
+.contact .background-image{
+    border: 0px;
     width: 100%;
-    background-color: black;
-    color: white;
-    padding-top: 25px;
-    text-align: center;
+    height: 108vh;
+    object-fit: cover;
+    position: absolute;
+    opacity: 20%;
+    z-index: -10;
 }

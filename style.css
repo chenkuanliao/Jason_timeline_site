@@ -99,19 +99,27 @@ nav ul li {
     margin: 5%;
 }
 
-.background-image{
+.intro .background-image{
     border: 0px;
     width: 100%;
-    height: 108vh;
+    height: 155vh;
     object-fit: cover;
     position: absolute;
     opacity: 50%;
 }
 
 .intro p {
-    font-size: 15px;
+    font-size: 18px;
     margin: 10px;
     margin-left: 0px;
+}
+
+.intro h2{
+    font-size: 25px;
+}
+
+.intro h3{
+    font-weight: bold;
 }
 
 
@@ -140,6 +148,15 @@ nav ul li {
     margin: 30px;
 }
 
+.timeline .background-image{
+    border: 0px;
+    width: 100%;
+    height: 108vh;
+    object-fit: cover;
+    position: absolute;
+    opacity: 50%;
+}
+
 
 /* Contact section */
 .contact{
@@ -149,7 +166,7 @@ nav ul li {
 }
 
 .contact-container{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .contact div{
     margin-left: 10%;
@@ -162,6 +179,12 @@ nav ul li {
 
 .contact h2{
     font-size: 20px;
+}
+
+.contact a{
+    font-size: 20px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contact .background-image{
